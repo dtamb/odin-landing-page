@@ -13,3 +13,50 @@ body{
     display: flex;
 
 }
+
+.header,.hero,.footer{
+    background-color:#1f2937;
+}
+
+.header .logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.hero h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+.hero p,
+.header ul{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.info h2{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+
+.quote{
+    background-color: #e5e7eb;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1f2937;
+}
+
+.sign-up,
+button{
+    background-color: #3882f6;
+
+}
+
+.footer{
+
+}
