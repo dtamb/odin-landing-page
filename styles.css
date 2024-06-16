@@ -6,6 +6,23 @@ body{
     margin: 0px;
 }
 
+ul {
+    list-style-type: none;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+button{
+    font-family: Robot, sans-serif;
+    padding: 8px 32px;
+    border-radius: 8px;
+    border: none;
+    color: #f9faf8;
+}
+
 .top{
     padding: 0 100px 0 150px;
 }
@@ -97,11 +114,3 @@ button{
 
 }
 
-ul {
-    list-style-type: none;
-}
-
-
-a{
-    text-decoration: none;
-}
