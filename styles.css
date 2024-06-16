@@ -1,26 +1,48 @@
 body{
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0px;
+}
 
+.top{
+    padding: 0 100px 0 150px;
 }
 
 .header{
     display: flex;
+    align-items: center;
+
+}
+
+.header .logo {
+    flex: 1 0 200px;
 }
 
 .header-links{
     display: flex;
+    gap: 16px;
+    padding: 0px;
 
 }
 
-.header,.hero,.footer{
+.top,.footer{
     background-color:#1f2937;
 }
 
 .header .logo{
     font-size: 24px;
+}
+
+.header .logo,
+.header a{
     color: #f9faf8;
+}
+
+.header a{
+    font-weight: 300;
+    font-size: 16px;
 }
 
 .hero h1{
@@ -34,10 +56,24 @@ body{
     color: #e5e7eb;
 }
 
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 20px;
+    margin-top: 0px;
+}
+
 .info h2{
     font-size: 36px;
     font-weight: extra-bold;
     color: #1f2937;
+}
+
+.info .info-boxes{
+    display: flex;
+    justify-content: space-apart;
+    gap: 15px;
 }
 
 .quote{
@@ -59,4 +95,13 @@ button{
 
 .footer{
 
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+a{
+    text-decoration: none;
 }
