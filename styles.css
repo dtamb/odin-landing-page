@@ -62,15 +62,32 @@ button{
     font-size: 16px;
 }
 
+.hero{
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+
 .hero h1{
     font-size: 48px;
     font-weight: extra-bold;
     color: #f9faf8;
 }
+
 .hero p,
 .header ul{
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.hero .image{
+    background-color: #90949b;
+    height: 200px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #e5e7eb;
+    flex: 0 1 700px;
 }
 
 .info{
