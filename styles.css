@@ -24,13 +24,13 @@ button{
 }
 
 .top{
-    padding: 0 100px 0 150px;
+    padding: 0 100px 24px 150px;
 }
 
 .header{
     display: flex;
     align-items: center;
-
+    
 }
 
 .header .logo {
@@ -66,6 +66,8 @@ button{
     display: flex;
     gap: 18px;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 .hero h1{
@@ -80,6 +82,10 @@ button{
     color: #e5e7eb;
 }
 
+.hero-left{
+    flex: 1 0 450px;
+}
+
 .hero .image{
     background-color: #90949b;
     height: 200px;
@@ -87,14 +93,14 @@ button{
     display: flex;
     align-items: center;
     color: #e5e7eb;
-    flex: 0 1 700px;
+    flex: 0 0 450px;
 }
 
 .info{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px 20px;
+    margin: 60px 20px;
     margin-top: 0px;
 }
 
@@ -104,10 +110,27 @@ button{
     color: #1f2937;
 }
 
-.info .info-boxes{
+.box .image{
+    width: 100px;
+    height: 100px;
+    border: solid 3px #3882f6;
+    border-radius: 15px;
+}
+
+.info-boxes{
+    margin: 0 200px;
     display: flex;
-    justify-content: space-apart;
+    justify-content: space-evenly;
     gap: 15px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 1 150px;
+    text-align: center;
+    gap: 10px;
 }
 
 .quote{
@@ -128,6 +151,7 @@ button{
 }
 
 .footer{
-
+    display: flex;
+    justify-content: center;
 }
 
